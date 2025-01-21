@@ -1,0 +1,2 @@
+# sekolahku
+aplikasi manajemen sekolah
