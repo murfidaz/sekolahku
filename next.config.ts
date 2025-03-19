@@ -1,7 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  // digunakan karena packagenya tidak boleh digabung dengan backpack
+  serverExternalPackages: ["pino", "pino-pretty"],
 };
 
 export default nextConfig;
